@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="pr_spinner">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:spinnerMode">dialog</item>
+        <item name="android:background">@color/c_all_alpha</item>
+
+
+    </style>
+
+    <!--多媒体textview属性-->
+    <style name="pr_multimedia_textview">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/c_pr_tv</item>
+
+    </style>
+
+    <style name="dropdown_theme" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:divider">#00ff00</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!--评价考核属性-->
+
+    <style name="sty_fragment_evaluation0">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textColor">@color/c_problem_report_left</item>
+        <item name="android:drawableLeft">@mipmap/pr_select_img_e</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="sty_fragment_evaluation">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:textColor">@color/c_problem_report_left</item>
+        <item name="android:drawableRight">@mipmap/e_arrow_right</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+
+    <style name="task_1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">end|center_vertical</item>
+        <item name="android:textColor">@color/c_problem_report_left</item>
+    </style>
+
+    <style name="task_2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/c_problem_report_left</item>
+    </style>
+
+
+</resources>

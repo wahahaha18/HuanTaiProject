@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/c_alpha_linear"
+                android:divider="@drawable/medium_space"
+                android:showDividers="middle"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/tv_e_ca"
+                    android:text="@string/s_comprehensive_assessment"
+                    style="@style/sty_fragment_evaluation0"
+                    />
+                <TextView
+                    android:id="@+id/tv_e_trend_analysis"
+                    android:text="@string/s_trend_analysis"
+                    style="@style/sty_fragment_evaluation"
+                    />
+                <TextView
+                    android:id="@+id/tv_e_network_evaluation"
+                    android:text="@string/s_network_evaluation"
+                    style="@style/sty_fragment_evaluation"
+                    />
+                <TextView
+                    android:id="@+id/tv_e_sectoral_assessment"
+                    android:text="@string/s_sectoral_assessment"
+                    style="@style/sty_fragment_evaluation"
+                    />
+                <TextView
+                    android:id="@+id/tv_e_same_chain"
+                    android:text="@string/s_same_chain"
+                    style="@style/sty_fragment_evaluation"
+                    />
+                <TextView
+                    android:id="@+id/tv_e_chain"
+                    android:text="@string/s_chain"
+                    style="@style/sty_fragment_evaluation"
+                    />
+
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/c_alpha_linear"
+                    android:divider="@drawable/medium_space"
+                    android:showDividers="middle"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:id="@+id/tv_e_dynamic_case"
+                        android:text="@string/s_dynamic_case"
+                        style="@style/sty_fragment_evaluation0"
+                        />
+                    <TextView
+                        android:id="@+id/tv_e_area"
+                        android:text="@string/s_area"
+                        style="@style/sty_fragment_evaluation"
+                        />
+                    <TextView
+                        android:id="@+id/tv_e_type"
+                        android:text="@string/s_type"
+                        style="@style/sty_fragment_evaluation"
+                        />
+                    <TextView
+                        android:id="@+id/tv_e_source"
+                        android:text="@string/s_source"
+                        style="@style/sty_fragment_evaluation"
+                        />
+                    <TextView
+                        android:id="@+id/tv_e_court_issues"
+                        android:text="@string/s_court_issues"
+                        style="@style/sty_fragment_evaluation"
+                        />
+
+                </LinearLayout>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>
+</layout>
+

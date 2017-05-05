@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/c_alpha_linear"
+            android:divider="@drawable/medium_space"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:divider="@drawable/medium_space"
+                android:showDividers="middle">
+
+                <TextView
+                    android:id="@+id/tv_multimedia_pic"
+                    style="@style/pr_multimedia_textview"
+                    android:drawableTop="@mipmap/photo_img"
+                    android:text="@string/s_multimedia_pic" />
+
+                <TextView
+                    android:id="@+id/tv_multimedia_cam"
+                    style="@style/pr_multimedia_textview"
+                    android:drawableTop="@mipmap/camera_img"
+                    android:text="@string/s_multimedia_cam" />
+
+                <TextView
+                    android:id="@+id/tv_multimedia_mus"
+                    style="@style/pr_multimedia_textview"
+                    android:drawableTop="@mipmap/music_img"
+                    android:text="@string/s_multimedia_mus" />
+
+                <TextView
+                    android:id="@+id/tv_multimedia_rad"
+                    style="@style/pr_multimedia_textview"
+                    android:drawableTop="@mipmap/redio_img"
+                    android:text="@string/s_multimedia_rad" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <Button
+                    android:id="@+id/b_pr_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/pr_cancel"
+                    android:text="@string/s_button_cancel"
+                    android:textColor="@color/c_button_text"/>
+
+                <View
+                    android:layout_width="14dp"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/b_pr_report"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/pr_report"
+                    android:text="@string/s_button_report"
+                    android:textColor="@color/c_button_text"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

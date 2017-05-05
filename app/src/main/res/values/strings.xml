@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">HuanTaiProject</string>
+    <string name="main_title">桓台县全域网格化管理服务平台</string>
+    <string name="problem_report_title_1">事件描述</string>
+    <string name="problem_report_title_2">多媒体</string>
+    <string name="s_problem_type">问题类型*</string>
+    <string name="s_big_type">大类*</string>
+    <string name="s_small_type">小类*</string>
+    <string name="s_problem_level">问题等级*</string>
+    <string name="s_free_time">放生时间*</string>
+    <string name="s_map_location">地图定位*</string>
+    <string name="s_address_description">地址描述*</string>
+    <string name="s_party_man">当事人*</string>
+    <string name="s_contact_number">联系电话*</string>
+    <string name="s_incident_description">事件描述*</string>
+    <string name="s_button_cancel">取消</string>
+    <string name="s_button_report">上报</string>
+    <string name="s_map_location_text">地图定位</string>
+
+    <!--多媒体界面-->
+    <string name="s_multimedia_pic">图片</string>
+    <string name="s_multimedia_cam">拍照</string>
+    <string name="s_multimedia_mus">音频</string>
+    <string name="s_multimedia_rad">录音</string>
+    <string-array name="languages0">
+        <item>综合治理</item>
+        <item>java </item>
+        <item>php</item>
+        <item>xml</item>
+        <item>html</item>
+    </string-array>
+    <string-array name="languages1">
+        <item>综合治理</item>
+        <item>java </item>
+        <item>php</item>
+        <item>xml</item>
+        <item>html</item>
+    </string-array>
+    <string-array name="languages2">
+        <item>垃圾乱扔</item>
+        <item>java </item>
+        <item>php</item>
+        <item>xml</item>
+        <item>html</item>
+    </string-array>
+    <string-array name="languages3">
+        <item>一般</item>
+        <item>java </item>
+        <item>php</item>
+        <item>xml</item>
+        <item>html</item>
+    </string-array>
+    <string-array name="languages4">
+        <item>选择人</item>
+        <item>java </item>
+        <item>php</item>
+        <item>xml</item>
+        <item>html</item>
+    </string-array>
+    <!--急要件界面-->
+    <string name="s_hp_reply">回复</string>
+    <string name="s_hp_question_type">问题类别</string>
+    <string name="s_hp_report_time">上报时间</string>
+
+    <string name="s_hp_problem_big_type1">问题大类</string>
+    <string name="s_hp_problem_small_type">问题小类</string>
+    <string name="s_hp_task_number">任务号</string>
+    <string name="s_hp_handle_stage">办理阶段</string>
+    <string name="s_hp_handle_man">办理人</string>
+
+    <!--督办件界面-->
+    <string name="s_sp_overtime">超时天数</string>
+
+    <!--民情日志界面-->
+    <string name="s_query">查询</string>
+    <string name="sp_name">ycl</string>
+    <!--评价考核界面-->
+    <string name="s_comprehensive_assessment">综合评价</string>
+    <string name="s_trend_analysis">趋势分析</string>
+    <string name="s_network_evaluation">网络员评价</string>
+    <string name="s_sectoral_assessment">部门评价</string>
+    <string name="s_same_chain">同比</string>
+    <string name="s_chain">环比</string>
+    <string name="s_dynamic_case">案件动态</string>
+    <string name="s_area">区域</string>
+    <string name="s_type">类型</string>
+    <string name="s_source">来源</string>
+    <string name="s_court_issues">高法问题</string>
+    <!--我的任务详情-->
+
+    <string name="s_problem_type1">问题类型</string>
+    <string name="s_tf_task_adress">地址</string>
+    <string name="big_type_name">大类名称</string>
+    <string name="small_type_name">小类名称</string>
+    <string name="s_problem_description">问题描述</string>
+    <string name="s_requirement">相关要求</string>
+    <string name="s_search_map">查看地图</string>
+    <string name="s_route_planning">路径规划</string>
+
+    <!--人口管理详情-->
+    <string name="s_pm_search">查询</string>
+    <string name="s_pm_map">地图</string>
+
+
+</resources>

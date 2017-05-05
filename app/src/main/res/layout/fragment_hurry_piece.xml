@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="@color/c_alpha_linear">
+
+            <Spinner
+                android:id="@+id/hp_spinner1"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@color/c_alpha_et"
+                android:layout_gravity="center_vertical"/>
+
+
+            <Spinner
+                android:id="@+id/hp_spinner2"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@color/c_alpha_et"
+                android:layout_gravity="center_vertical" />
+
+            <Spinner
+                android:id="@+id/hp_spinner3"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:background="@color/c_alpha_et"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/c_alpha_linear"
+            android:divider="@drawable/color_pr_line"
+            android:showDividers="middle">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/tv_hp_reply"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/s_hp_reply"
+                    android:gravity="center"
+                    android:textColor="@color/c_hp_text_color"
+                    />
+                <TextView
+                    android:id="@+id/tv_hp_question_type"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="@string/s_hp_question_type"
+                    android:gravity="center"
+                    android:textColor="@color/c_hp_text_color"
+                    />
+                <TextView
+                    android:id="@+id/tv_hp_report_time"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/s_hp_report_time"
+                    android:gravity="center"
+                    android:textColor="@color/c_hp_text_color"
+                    />
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/hp_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
+
